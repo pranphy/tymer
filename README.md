@@ -1,6 +1,6 @@
 # tymer
 
-A minimalist typst packages to make slide. The theme is kinda like some beamer theme, at least the layout.
+A minimalist [typst](https://typst.app/docs) packages to make slide. The theme is kinda like some beamer theme, at least the layout.
 
 This doesn't have fancy features like uncover, only etc. I don't find them useful, they are just distractions.
 
