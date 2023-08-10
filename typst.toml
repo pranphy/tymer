@@ -1,0 +1,7 @@
+[package]
+name = "tymer"
+version = "0.1.0"
+entrypoint = "tymer.typ"
+authors = ["Prakash"]
+license = "Unlicense"
+description = "A beamer like theme for typst."
