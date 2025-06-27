@@ -8,7 +8,7 @@ This doesn't have fancy features like uncover, only etc. I don't find them usefu
 # Installation
 
 ```bash
-git clone git@github.com:pranphy/tymer ~/.local/share/typst/packages/local/tymer/0.1.0/
+git clone git@github.com:pranphy/tymer ~/.local/share/typst/packages/local/
 ```
 
 
@@ -17,14 +17,14 @@ git clone git@github.com:pranphy/tymer ~/.local/share/typst/packages/local/tymer
 In your `slide.typ` file
 
 ```typst
-#import "@local/tymer:0.1.0": *
+#import "@local/tymer:0.2.0": *
 #show: slides.with(
     authors: "Prakash Gautam",
     institute: Institute("University of Virginia",short:"UVa"),
     short-authors: "P. Gautam",
     title: "Background from all edges",
     location: "Moller Simulation Meeting",
-    thm: (fg:white.darken(00%),bg:black.lighten(21%),ac: orange)
+    thm: (fg:white.darken(00%),bg:black.lighten(21%),pr: orange,sec:white)
 )
 
 #titlepage()
